@@ -6,7 +6,7 @@ public class conectaDAO {
 
     private static final String URL = "jdbc:mysql://localhost:3306/uc11";
     private static final String USUARIO = "root";
-    private static final String SENHA = "";
+    private static final String SENHA = "Enzo241005$";
 
     public Connection connectDB() throws SQLException {
         return DriverManager.getConnection(URL, USUARIO, SENHA);
