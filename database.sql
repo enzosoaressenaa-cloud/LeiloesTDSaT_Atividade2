@@ -12,3 +12,4 @@ CREATE TABLE IF NOT EXISTS produtos (
     status VARCHAR(30) NOT NULL,
     PRIMARY KEY (id)
 );
+
